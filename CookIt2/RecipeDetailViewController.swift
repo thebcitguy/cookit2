@@ -9,7 +9,7 @@ import UIKit
 
 class RecipeDetailViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    var recipe: Recipes?
+    var recipe: Recipe?
   
   @IBOutlet weak var imageView: UIImageView!
   @IBOutlet weak var tableView: UITableView!
